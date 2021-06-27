@@ -299,6 +299,7 @@ body {
 		height: auto;
 		background-image: url(image/requirements-fix.png);
 		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	#section-4 .wrapper-black {
@@ -309,6 +310,7 @@ body {
 		display: flex;
 		align-items: center;
 		position: relative;
+		background-size: cover;
 	}
 
 	#section-4 .section-4-wrapper {
@@ -377,6 +379,7 @@ body {
 		position: relative;
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
 	}
 
 	#section-5 .section-5-wrapper {
