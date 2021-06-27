@@ -480,10 +480,12 @@ body {
 	width: 100%;
 	height: 100vh;
 	background-image: url(image/bg-section-6.jpg);
+	display: flex;
+	justify-content: center;
 }
 
 #section-6 .section-6-wrapper {
-	width: 100%;
+	width: 80%;
 	height: 100%;
 	position: relative;
 	display: flex;
@@ -497,7 +499,7 @@ body {
 
 .section-6-wrapper .img {
 	width: 300px;
-	left: 10%;
+	left: 0;
 	position: absolute;
 	top: 15%;
 
@@ -510,8 +512,7 @@ body {
 
 .section-6-wrapper .wrapper-for-wrapper {
 	position: relative;
-	width: 50%;
-	padding-right: 10%;
+	width: 60%;
 }
 
 .section-6-wrapper .wrapper-right-6 {
@@ -591,13 +592,87 @@ body {
 	color: black;
 	font-size: 16px;
 }
+/*end of section-6*/
 
 
 
-
-
+/*footer start*/
 footer {
 	width: 100%;
 	height: 20vh;
 	background-image: url(image/bg-section-6.jpg);
+	display: flex;
+	justify-content: center;
 }
+
+footer .footer-container {
+	width: 80%;
+	height: 100%;
+	flex-direction: column;
+	position: relative;
+}
+
+.footer-container .top-container {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.top-container .menu {
+	margin-right: 100px;
+}
+
+.top-container .menu a{
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	font-family: Open Sans, sans-serif;
+	font-size: 12px;
+}
+
+.top-container .socmed {
+
+}
+
+.top-container .socmed img {
+	padding-left: 20px;
+}
+
+.footer-container .line {
+	margin: 20px 0;
+	width: 100%;
+	height: 0.1px;
+	background-color: white;
+	border: 1px solid white;
+}
+
+.footer-container .bot-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bot-container .copyright p {
+	font-family: Open Sans, sans-serif;
+	font-size: 14px;
+	color: white;
+	opacity: 0.5;
+	margin: 0;
+}
+
+.bot-container .menu-2 a{
+	text-decoration: none;
+	color: white;
+	font-family: Open Sans, sans-serif;
+	font-size: 12px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+
+
+/*end of footer*/
+
+
