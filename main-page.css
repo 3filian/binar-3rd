@@ -156,6 +156,7 @@ body {
 
 	.section-2-bot {
 		display: flex;
+		/*justify-content: center;*/
 		/*justify-content: flex-start;*/
 		width: 100%;
 	}
@@ -174,6 +175,7 @@ body {
 		position: relative;
 		display: flex;
 		align-items: center;
+		padding-right: 20px;
 	}
 
 	.section-2-bot img {
@@ -223,7 +225,8 @@ body {
 		position: relative;
 		left: 50%;
 		/*background-color: black;*/
-		padding: 50px;
+		top: 20%;
+		padding: 0 50px;
 
 	}
 
@@ -317,7 +320,7 @@ body {
 		width: 50%;
 		left: 50px;
 		position: relative;
-		padding: 60px 0;
+		padding: 70px 0;
 		/*background-color:  black;*/
 	}
 
@@ -411,6 +414,7 @@ body {
 		font-family: Open Sans, sans-serif;
 		font-size: 18px;	
 		margin-bottom: 50px;
+		padding-right: 50px;
 	}
 
 	.section-5-wrapper .wrapper-left .button-more a{
